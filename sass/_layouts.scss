@@ -2,8 +2,9 @@
 @use "mixins" as *;
 
 .main {
-  background-color: #ecf2f8;
   padding: 90px $sm-padding;
+  background-color: #ecf2f8;
+  min-height: 100vh;
   &__container {
     display: grid;
     margin: auto;
